@@ -1,27 +1,71 @@
-Yocto for Zedboard by hand
-==========================
+Yocto
+=====
 
 The easiest way to setup and keep all the necessary meta-layers in sync with upstream repositories
 is achieved by means of Google's **repo** tool.
 The following steps are necessary for a clean installation:
 
-1) Install repo tool, if you already have it go to step 2
+1) Install repo tool, if you already have it go to step 4
 
-2) Open a terminal
+.. raw:: html
 
-3) Change the current directory to the directory where you want all the meta-layers to be downloaded into
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-81' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-81" class="language-markup">mkdir -p ~/bin
+ sudo apt-get install curl
+ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo &gt; ~/bin/repo
+ chmod a+x ~/bin/repo</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
 
-4) Download the manifest
+2) Make sure directory *~/bin* is included in your *PATH* variable by printing its content
 
-::
+.. raw:: html
 
- repo init -u https://github.com/architech-boards/zedboard-manifest.git -b dora -m manifest.xml
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-82' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-82" class="language-markup">echo $PATH</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
 
-5) Download the repositories
+3) If *~/bin* directory is not included, add this line to your *~/.bashrc*
 
-::
+.. raw:: html
 
- repo sync
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-83' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-83" class="language-markup">export PATH="$PATH:${HOME}/bin"</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
+
+4) Open a new terminal
+
+5) Change the current directory to the directory where you want all the meta-layers to be downloaded into
+
+6) Download the manifest
+
+.. raw:: html
+
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-84' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-84" class="language-markup">repo init -u https://github.com/architech-boards/zedboard-manifest.git -b dora -m manifest.xml</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
+
+7) Download the repositories
+
+.. raw:: html
+
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-85' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-85" class="language-markup">repo sync</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
 
 By the end of the last step, all the necessary meta-layers should be in place, anyway, you still need to 
 edit your **local.conf** and **bblayers.conf** to compile for zedboard-zynq7 machine and using all the downloaded
@@ -35,15 +79,25 @@ When you want your local repositories to be updated, just:
 
 3) Sync your repositories with upstream
 
-::
+.. raw:: html
 
- repo sync
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-86' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-86" class="language-markup">repo sync</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
 
-If you really want to download everything by hand, just clone dora branch of meta-xilinx:
+If you really want to download everything by hand, just clone branch *dora* of *meta-xilinx*:
 
-::
+.. raw:: html
 
- git clone -b dora https://github.com/architech-boards/meta-xilinx.git
+ <div>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-87' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-87" class="language-markup">git clone -b dora git://git.yoctoproject.org/meta-xilinx.git</code></pre>
+ <script src="_static/prism.js"></script>
+ <script src="_static/select_text.js"></script>
+ </div>
 
 and have a look at the README file.
 

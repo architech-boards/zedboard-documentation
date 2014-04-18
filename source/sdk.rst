@@ -1,7 +1,7 @@
-Yocto based SDK
-===============
+SDK
+===
 
-The SDK provided by *Architech* to support Zedboard is composed by several components, the most important of which are:
+The SDK provided by *Architech* to support ZedBoard is composed by several components, the most important of which are:
 
 * **Yocto**,
 
@@ -24,9 +24,5 @@ we suggest you to download and :ref:`install the virtual machine <vm_label>` bec
 (have a look at :ref:`vm-layout_label`), everything inside the virtual machine has been thought to work out of the
 box, plus you will get support.
 
-If performances are your greatest concerns you can install everything on a native machine, how you do it depends on
-your level of expertise in Linux/Yocto, the time you have available to make everything work and the level of customization
-you want to achieve. If you just care about speed, then :ref:`download a script from the Internet and start to work <install_scripts_label>`.
+If performances are your greatest concerns, consider reading Chapter :ref:`create_sdk_label`.
 
-If you prefer to install Yocto meta-layers by hand, please have a look at this how to on
-:ref:`installing Yocto for Zedboard by hand <yocto_by_hand_label>`.
