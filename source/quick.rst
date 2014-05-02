@@ -10,8 +10,6 @@ Install
 =======
 .. include:: vdi.rst
 
-Such a modification will be effective after a logout and subsquent login or after a reboot of the virtual machine, so just shutdown the virtual machine so you can catch up with the next section.
-
 Build
 =====
 
