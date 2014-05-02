@@ -16,8 +16,8 @@ the libraries under Ubuntu
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-101' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-101" class="language-markup">sudo apt-get install libxrender-dev</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-91' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-91" class="language-markup">sudo apt-get install libxrender-dev</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -28,8 +28,8 @@ So, to install *qt-everywhere* for *x86* from sources, the usual drill of downlo
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-102' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-102" class="language-markup">wget http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.zip
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-92' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-92" class="language-markup">wget http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.zip
  unzip qt-everywhere-opensource-src-4.8.5.zip
  cd qt-everywhere-opensource-src-4.8.5
  ./configure /*Choose Open source Edition when asked, and accept the license*/
@@ -45,8 +45,8 @@ and uncompressed the sources
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-103' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-103" class="language-markup">wget http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.zip
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-93' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-93" class="language-markup">wget http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.zip
  unzip qt-everywhere-opensource-src-4.8.5.zip
  cd qt-everywhere-opensource-src-4.8.5
  cp -r mkspecs/qws/linux-arm-g++/ mkspecs/qws/linux-zedboard-g++
@@ -61,8 +61,8 @@ you need to customize *qmake* configuration
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-104' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-104" class="language-markup">#
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-94' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-94" class="language-markup">#
  # qmake configuration for building with arm-linux-g++
  #
  
@@ -92,8 +92,8 @@ save the file and exit from gedit, then *configure*, *make* and *make install*
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-105' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-105" class="language-markup">cd ../../../
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_framework_rst-host-95' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_framework_rst-host-95" class="language-markup">cd ../../../
  ./configure -no-pch -opensource -confirm-license -prefix /usr/local/Trolltech/Zedboard -no-qt3support -embedded arm -nomake examples -nomake demo -little-endian -xplatform qws/linux-zedboard-g++ -qtlibinfix E
  make
  make install</code></pre>

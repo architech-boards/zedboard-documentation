@@ -7,8 +7,8 @@ end of the build process, *Bitbake* will let you find it under directory:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-151' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-151" class="language-markup">/path/to/yocto/build/tmp/deploy/images/zedboard-zynq7/</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-141' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-141" class="language-markup">/path/to/yocto/build/tmp/deploy/images/zedboard-zynq7/</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -18,8 +18,8 @@ this means that within the SDK the actual path of the directory is:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-152' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-152" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7/</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-142' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-142" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7/</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -49,8 +49,8 @@ under:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-153' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-153" class="language-markup">/media/rootfs</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-143' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-143" class="language-markup">/media/rootfs</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -65,8 +65,8 @@ Untar the file corresponding to your root file system inside such a partition:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-154' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-154" class="language-markup">sudo rm -rf /media/rootfs/*
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'rootfs_rst-host-144' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="rootfs_rst-host-144" class="language-markup">sudo rm -rf /media/rootfs/*
  sudo tar -xzf /home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7/&lt;image&gt;-zedboard-zynq7.tar.gz -C /media/rootfs/</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>

@@ -10,8 +10,8 @@ The following steps are necessary for a clean installation:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-81' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-81" class="language-markup">mkdir -p ~/bin
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-71' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-71" class="language-markup">mkdir -p ~/bin
  sudo apt-get install curl
  curl http://commondatastorage.googleapis.com/git-repo-downloads/repo &gt; ~/bin/repo
  chmod a+x ~/bin/repo</code></pre>
@@ -24,8 +24,8 @@ The following steps are necessary for a clean installation:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-82' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-82" class="language-markup">echo $PATH</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-72' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-72" class="language-markup">echo $PATH</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -35,8 +35,8 @@ The following steps are necessary for a clean installation:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-83' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-83" class="language-markup">export PATH="$PATH:${HOME}/bin"</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-73' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-73" class="language-markup">export PATH="$PATH:${HOME}/bin"</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -50,8 +50,8 @@ The following steps are necessary for a clean installation:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-84' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-84" class="language-markup">repo init -u https://github.com/architech-boards/zedboard-manifest.git -b dora -m manifest.xml</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-74' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-74" class="language-markup">repo init -u https://github.com/architech-boards/zedboard-manifest.git -b dora -m manifest.xml</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -61,8 +61,8 @@ The following steps are necessary for a clean installation:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-85' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-85" class="language-markup">repo sync</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-75' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-75" class="language-markup">repo sync</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -82,8 +82,8 @@ When you want your local repositories to be updated, just:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-86' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-86" class="language-markup">repo sync</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-76' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-76" class="language-markup">repo sync</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -93,8 +93,8 @@ If you really want to download everything by hand, just clone branch *dora* of *
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-87' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-87" class="language-markup">git clone -b dora git://git.yoctoproject.org/meta-xilinx.git</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'yocto_by_hand_rst-host-77' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="yocto_by_hand_rst-host-77" class="language-markup">git clone -b dora git://git.yoctoproject.org/meta-xilinx.git</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>

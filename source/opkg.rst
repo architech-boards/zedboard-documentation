@@ -16,8 +16,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-231' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-231" class="language-markup">opkg update</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-221' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-221" class="language-markup">opkg update</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -27,8 +27,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-232' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-232" class="language-markup">opkg list</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-222' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-222" class="language-markup">opkg list</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -38,8 +38,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-233' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-233" class="language-markup">opkg list-installed</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-223' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-223" class="language-markup">opkg list-installed</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -49,8 +49,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-234' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-234" class="language-markup">opkg install &lt;package 1&gt; &lt;package 2&gt; ... &lt;package n&gt;</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-224' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-224" class="language-markup">opkg install &lt;package 1&gt; &lt;package 2&gt; ... &lt;package n&gt;</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -60,8 +60,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-235' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-235" class="language-markup">opkg search &lt;file&gt;</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-225' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-225" class="language-markup">opkg search &lt;file&gt;</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -71,8 +71,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-236' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-236" class="language-markup">opkg info &lt;package&gt;</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-226' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-226" class="language-markup">opkg info &lt;package&gt;</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -82,8 +82,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-237' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-237" class="language-markup">opkg whatdepends &lt;package&gt;</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-227' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-227" class="language-markup">opkg whatdepends &lt;package&gt;</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -93,8 +93,8 @@ Useful commands:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-238' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-238" class="language-markup">opkg remove &lt;package 1&gt; &lt;package 2&gt; ... &lt;package n&gt;</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-228' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-228" class="language-markup">opkg remove &lt;package 1&gt; &lt;package 2&gt; ... &lt;package n&gt;</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -108,8 +108,8 @@ To force *Bitbake* to include it in the next build, edit your configuration file
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-51' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-51" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/conf/local.conf</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-41' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-41" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/conf/local.conf</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -119,8 +119,8 @@ and add this line to it:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-52' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-52" class="language-markup">IMAGE_FEATURES_append = " package-management"</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-42' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-42" class="language-markup">IMAGE_FEATURES_append = " package-management"</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -137,8 +137,8 @@ You can easily setup a new repository for your custom builds:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-53' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-53" class="language-markup">sudo apt-get install apache2</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-43' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-43" class="language-markup">sudo apt-get install apache2</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -148,8 +148,8 @@ You can easily setup a new repository for your custom builds:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-54' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-54" class="language-markup">sudo ln -s /home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/ipk/ /var/www/zedboard-ipk</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-44' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-44" class="language-markup">sudo ln -s /home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/ipk/ /var/www/zedboard-ipk</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -159,8 +159,8 @@ You can easily setup a new repository for your custom builds:
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-239' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-239" class="language-markup">src/gz zedboard-zynq7 http://192.168.0.100:8000/zedboard-ipk/zedboard-zynq7</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-229' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-229" class="language-markup">src/gz zedboard-zynq7 http://192.168.0.100:8000/zedboard-ipk/zedboard-zynq7</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -174,8 +174,8 @@ To actually reach the virtual machine we set up a port forwarding mechanism in C
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-2310' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-2310" class="language-markup">opkg update</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-board-2210' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-board-2210" class="language-markup">opkg update</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -188,8 +188,8 @@ Sometimes, you need to force bitbake to rebuild the index of packages by means o
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-55' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-55" class="language-markup">bitbake package-index</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'opkg_rst-host-45' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="opkg_rst-host-45" class="language-markup">bitbake package-index</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>

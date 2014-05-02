@@ -35,8 +35,8 @@ notation is used.
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-host-181' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-host-181" class="language-markup">This Box will be used where long lines need to be displayed, as well as with system paths, commands, configuration files, etc.
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-host-171' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-host-171" class="language-markup">This Box will be used where long lines need to be displayed, as well as with system paths, commands, configuration files, etc.
  All related to the host.
  It will be used to display code example as well.</code></pre>
  <script src="_static/prism.js"></script>
@@ -46,8 +46,8 @@ notation is used.
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-board-261' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-board-261" class="language-markup">The same facility will be used, when needed, for the board.</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-board-251' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-board-251" class="language-markup">The same facility will be used, when needed, for the board.</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -64,8 +64,8 @@ could read something like this in the documentation:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-host-182' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-host-182" class="language-markup">/path/to/your/USB/device</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-host-172' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-host-172" class="language-markup">/path/to/your/USB/device</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -76,8 +76,8 @@ machine, like for example:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-host-183' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-host-183" class="language-markup">/dev/sdb</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'index_rst-host-173' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="index_rst-host-173" class="language-markup">/dev/sdb</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>

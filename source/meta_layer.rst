@@ -9,8 +9,8 @@ You can get it with *git*:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'meta_layer_rst-host-201' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="meta_layer_rst-host-201" class="language-markup">git clone git://git.yoctoproject.org/meta-xilinx.git
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'meta_layer_rst-host-191' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="meta_layer_rst-host-191" class="language-markup">git clone git://git.yoctoproject.org/meta-xilinx.git
  cd meta-xilinx/
  git checkout cb7329a596a5ab2d1392c1962f9975eeef8e4576</code></pre>
  <script src="_static/prism.js"></script>

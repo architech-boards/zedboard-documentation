@@ -27,8 +27,8 @@ Qt Creator
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-161' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-161" class="language-markup">/home/architech/architech_sdk/architech/zedboard/sysroot</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-151' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-151" class="language-markup">/home/architech/architech_sdk/architech/zedboard/sysroot</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -38,8 +38,8 @@ Qt Creator
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-162' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-162" class="language-markup">sudo mkdir -p /path/to/board/sysroot/usr/local/Trolltech/
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-152' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-152" class="language-markup">sudo mkdir -p /path/to/board/sysroot/usr/local/Trolltech/
  sudo cp -r /usr/local/Trolltech/Zedboard/* /path/to/board/sysroot/usr/local/Trolltech/</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
@@ -50,8 +50,8 @@ Qt Creator
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-163' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-163" class="language-markup">sudo mkdir -p ~/architech_sdk/architech/zedboard/sysroot/usr/local/Trolltech/
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-153' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-153" class="language-markup">sudo mkdir -p ~/architech_sdk/architech/zedboard/sysroot/usr/local/Trolltech/
  sudo cp -r /usr/local/Trolltech/Zedboard/* ~/architech_sdk/architech/zedboard/sysroot/usr/local/Trolltech</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
@@ -68,8 +68,8 @@ If you based your root file system on *qt4e-demo-image*, be sure you execute thi
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-board-251' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-board-251" class="language-markup">/etc/init.d/qtdemo stop</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-board-241' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-board-241" class="language-markup">/etc/init.d/qtdemo stop</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -136,8 +136,8 @@ Debug Hello World project
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-164' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-164" class="language-markup">scp /home/architech/architech_sdk/architech/zedboard/workspace/qt/build-QtHelloWorld-Hachiko-Debug/QtHelloWorld root@192.168.0.10:/home/root</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-154' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-154" class="language-markup">scp /home/architech/architech_sdk/architech/zedboard/workspace/qt/build-QtHelloWorld-Hachiko-Debug/QtHelloWorld root@192.168.0.10:/home/root</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -147,8 +147,8 @@ Debug Hello World project
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-board-252' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-board-252" class="language-markup">gdbserver :10000 QtHelloWorld -qws</code></pre>
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-board-242' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-board-242" class="language-markup">gdbserver :10000 QtHelloWorld -qws</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -171,8 +171,8 @@ Debug Hello World project
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-165' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-165" class="language-markup">/home/architech/architech_sdk/architech/zedboard/workspace/qt/build-QtHelloWorld-zedboard-Debug/QtHelloWorld</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'qt_creator_rst-host-155' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="qt_creator_rst-host-155" class="language-markup">/home/architech/architech_sdk/architech/zedboard/workspace/qt/build-QtHelloWorld-zedboard-Debug/QtHelloWorld</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>

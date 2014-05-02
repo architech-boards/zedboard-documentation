@@ -95,8 +95,8 @@ Connect ZedBoard console to your PC and power-on the board. Once you built the p
 .. raw:: html
 
  <div>
- <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'eclipse_rst-board-221' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="eclipse_rst-board-221" class="language-markup">zedboard login: root
+ <div><b class="admonition-board">&nbsp;&nbsp;Board&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'eclipse_rst-board-211' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="eclipse_rst-board-211" class="language-markup">zedboard login: root
  /etc/init.d/tcf-agent restart</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>

@@ -169,24 +169,3 @@ You need to choose a directory on your host operating system to share with the g
 
 Once the virtual machine has been booted, the shared folder will be mounted under */media/* directory inside the virtual machine.
 
-To access the shared folder inside the virtual machine you need to be *root* or to add your user to *vboxsf*.
-
-6. The most comfortable way is to add user *architech* to group *vboxsf* directly from the command line of the virtual machine, so click on the *Start* button in the toolbar.
-
-.. image:: _static/vbStart.png
-    :align: center
-
-7. Open a new terminal inside the virtual machine (CTRL+ALT+t) and execute this command
-
-.. raw:: html
-
- <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'vdi_rst-host-41' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="vdi_rst-host-41" class="language-markup">sudo usermod -a -G vboxsf architech</code></pre>
- <script src="_static/prism.js"></script>
- <script src="_static/select_text.js"></script>
- </div>
-
-.. note::
-
- **sudo** password is: "**architech**"

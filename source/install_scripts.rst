@@ -18,8 +18,8 @@ you need to download and run a system wide installation script:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'install_scripts_rst-host-91' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="install_scripts_rst-host-91" class="language-markup">git clone -b dora https://github.com/architech-boards/machine_installer.git
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'install_scripts_rst-host-81' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="install_scripts_rst-host-81" class="language-markup">git clone -b dora https://github.com/architech-boards/machine_installer.git
  cd machine_installer
  ./machine_install -g -p</code></pre>
  <script src="_static/prism.js"></script>
@@ -44,8 +44,8 @@ of tools related to ZedBoard:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'install_scripts_rst-host-92' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="install_scripts_rst-host-92" class="language-markup">git clone -b dora https://github.com/architech-boards/zedboard-splashscreen.git
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'install_scripts_rst-host-82' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="install_scripts_rst-host-82" class="language-markup">git clone -b dora https://github.com/architech-boards/zedboard-splashscreen.git
  cd zedboard-splashscreen
  ./run_install</code></pre>
  <script src="_static/prism.js"></script>

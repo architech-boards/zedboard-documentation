@@ -19,8 +19,8 @@ its sub-directories main layout is the following:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'vm_layout_rst-host-111' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="vm_layout_rst-host-111" class="language-markup">architech_sdk
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'vm_layout_rst-host-101' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="vm_layout_rst-host-101" class="language-markup">architech_sdk
      |
      |_ splashscreen
      |

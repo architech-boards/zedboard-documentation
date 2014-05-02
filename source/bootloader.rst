@@ -14,8 +14,8 @@ ways to do that:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-171' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-171" class="language-markup">/path/to/build/tmp/work/zedboard_zynq7-poky-linux-gnueabi/u-boot-xlnx/v2013.01-xilinx+gitAUTOINC+20a6cdd301-r1/git</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-161' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-161" class="language-markup">/path/to/build/tmp/work/zedboard_zynq7-poky-linux-gnueabi/u-boot-xlnx/v2013.01-xilinx+gitAUTOINC+20a6cdd301-r1/git</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -25,8 +25,8 @@ this means that within the virtual machine you will find them under:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-172' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-172" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/work/zedboard_zynq7-poky-linux-gnueabi/u-boot-xlnx/v2013.01-xilinx+gitAUTOINC+20a6cdd301-r1/git</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-162' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-162" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/work/zedboard_zynq7-poky-linux-gnueabi/u-boot-xlnx/v2013.01-xilinx+gitAUTOINC+20a6cdd301-r1/git</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -43,8 +43,8 @@ out the proper commit:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-173' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-173" class="language-markup">cd ~/Documents
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-163' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-163" class="language-markup">cd ~/Documents
  git clone git://github.com/Xilinx/u-boot-xlnx.git
  cd u-boot-xlnx
  git checkout 20a6cdd301941b97961c9c5425b5fbb771321aac</code></pre>
@@ -57,8 +57,8 @@ and by properly patching the sources:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-174' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-174" class="language-markup">cd ~/Documents
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-164' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-164" class="language-markup">cd ~/Documents
  git clone git://git.yoctoproject.org/meta-xilinx.git
  cd meta-xilinx/
  git checkout cb7329a596a5ab2d1392c1962f9975eeef8e4576
@@ -75,8 +75,8 @@ with the virtual machine, the most comfortable way to get the toolchain is to as
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-175' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-175" class="language-markup">bitbake meta-toolchain</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-165' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-165" class="language-markup">bitbake meta-toolchain</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -93,8 +93,8 @@ environment almost in place for compiling. The name of the script is:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-176' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-176" class="language-markup">environment-setup-armv7a-vfp-neon-poky-linux-gnueabi</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-166' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-166" class="language-markup">environment-setup-armv7a-vfp-neon-poky-linux-gnueabi</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -105,8 +105,8 @@ to unset a few variables:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-177' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-177" class="language-markup">unset CFLAGS CPPFLAGS CXXFLAGS LDFLAGS</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-167' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-167" class="language-markup">unset CFLAGS CPPFLAGS CXXFLAGS LDFLAGS</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -116,8 +116,8 @@ Inside the virtual machine, the toolchain is already installed under:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-178' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-178" class="language-markup">/home/architech/architech_sdk/architech/zedboard/toolchain</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-168' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-168" class="language-markup">/home/architech/architech_sdk/architech/zedboard/toolchain</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -128,8 +128,8 @@ environment for you when you want to compile the bootloader or the kernel
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-179' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-179" class="language-markup">source /home/architech/architech_sdk/architech/zedboard/toolchain/environment-nofs</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-169' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-169" class="language-markup">source /home/architech/architech_sdk/architech/zedboard/toolchain/environment-nofs</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -140,8 +140,8 @@ Ok, now you a have working environment to compile *u-boot*, just do:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-1710' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-1710" class="language-markup">cd ~/Documents/u-boot-xlnx/
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'bootloader_rst-host-1610' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="bootloader_rst-host-1610" class="language-markup">cd ~/Documents/u-boot-xlnx/
  make mrproper
  make zynq_zed_config
  make [-j parallelism factor] all</code></pre>
