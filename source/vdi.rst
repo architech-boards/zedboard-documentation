@@ -171,7 +171,7 @@ Once the virtual machine has been booted, the shared folder will be mounted unde
 
 To access the shared folder inside the virtual machine you need to be *root* or to add your user to *vboxsf*.
 
-6. The most comfortable way is to add user *architech* to group *vboxsf* directly from the command line of the virtual machine, so click the icon *Start* button on the toolbar.
+6. The most comfortable way is to add user *architech* to group *vboxsf* directly from the command line of the virtual machine, so click on the *Start* button in the toolbar.
 
 .. image:: _static/vbStart.png
     :align: center

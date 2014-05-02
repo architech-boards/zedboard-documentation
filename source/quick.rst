@@ -19,27 +19,38 @@ Build
 
  A working internet connection, several GB of free disk space and several hours are required by the build process
 
-1. Double click on *Architech SDK* icon you have on the virtual machine desktop.
+1. Select Architech's virtual machine from the list of virtual machines inside Virtual Box application
+
+.. image:: _static/vdi_machine_listed.png
+    :align: center
+
+2. Click on the icon *Start* button in the toolbar and wait until the virtual machine is ready
+
+.. image:: _static/vbStart.png
+    :align: center
+
+
+3. Double click on *Architech SDK* icon you have on the virtual machine desktop.
 
 .. image:: _static/splash0.jpg
     :align: center
 
-2. The first screen gives you two choices: *ArchiTech* and *3rd Party*. Choose *ArchiTech*.
+4. The first screen gives you two choices: *ArchiTech* and *3rd Party*. Choose *ArchiTech*.
 
 .. image:: _static/splash1.jpg
     :align: center
 
-3. Select ZedBoard as board you want develop on. 
+5. Select ZedBoard as board you want develop on. 
 
 .. image:: _static/splashscreen_board_selection.jpg
     :align: center
 
-4. A new screen opens up from where you can perform a set of actions. Click on *Run bitbake* to obtain a terminal ready to start to build an image.
+6. A new screen opens up from where you can perform a set of actions. Click on *Run bitbake* to obtain a terminal ready to start to build an image.
 
 .. image:: _static/splash3.jpg
     :align: center
 
-5. Open *local.conf* file:
+7. Open *local.conf* file:
 
 .. raw:: html
 
@@ -50,7 +61,7 @@ Build
  <script src="_static/select_text.js"></script>
  </div>
 
-6. Go to the end of the file and add the following lines:
+8. Go to the end of the file and add the following lines:
 
 .. raw:: html
 
@@ -64,9 +75,9 @@ Build
 
 This will trigger the installation of a features set onto the final root file system, like *tcf-agent* and *gdbserver*.
 
-7. Save the file and close gedit.
+9. Save the file and close gedit.
 
-8. Build *core-image-minimal-dev* image by means of the following command:
+10. Build *core-image-minimal-dev* image by means of the following command:
 
 .. raw:: html
 
@@ -88,7 +99,7 @@ At the end of the build process, the image will be saved inside directory:
  <script src="_static/select_text.js"></script>
  </div>
 
-9. Setup *sysroot* directory on your host machine:
+11. Setup *sysroot* directory on your host machine:
 
 .. raw:: html
 
