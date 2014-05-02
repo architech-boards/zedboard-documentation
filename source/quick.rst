@@ -12,40 +12,6 @@ Install
 
 Such a modification will be effective after a logout and subsquent login or after a reboot of the virtual machine, so just shutdown the virtual machine so you can catch up with the next section.
 
-Patch
-=====
-
-Be sure you have the proper version of sources and binaries by running a patch script.
-
-1. If not already started, start the VM by selecting the virtual machine from the list and by clicking on *Start* button.
-
-.. image:: _static/vbStart.png
-    :align: center
-
-2. Verify that you have a working Internet connection by surfing the web with Firefox or by trying to ping a public server (e.g. *www.google.com*).
-
-3. Download and execute the patch script
-
-.. raw:: html
-
- <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-211' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-211" class="language-markup">cd ~/Documents
- wget http://downloads.architechboards.com/sdk/virtual_machine/patch.sh
- chmod +x patch.sh
- ./patch.sh</code></pre>
- <script src="_static/prism.js"></script>
- <script src="_static/select_text.js"></script>
- </div>
-
-4. When the script successfully completes, it displays this message
-
-::
-
- Patch installed correctly
-
-If instead the script hangs or generates errors, please be sure you have a working Internet connection from inside the virtual machine.
-
 Build
 =====
 
@@ -78,8 +44,8 @@ Build
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-212' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-212" class="language-markup">gedit conf/local.conf</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-211' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-211" class="language-markup">gedit conf/local.conf</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -89,8 +55,8 @@ Build
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-213' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-213" class="language-markup">EXTRA_IMAGE_FEATURES_append = " tools-debug debug-tweaks"
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-212' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-212" class="language-markup">EXTRA_IMAGE_FEATURES_append = " tools-debug debug-tweaks"
  IMAGE_INSTALL_append = " tcf-agent"</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
@@ -105,8 +71,8 @@ This will trigger the installation of a features set onto the final root file sy
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-214' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-214" class="language-markup">bitbake core-image-minimal-dev</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-213' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-213" class="language-markup">bitbake core-image-minimal-dev</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -116,8 +82,8 @@ At the end of the build process, the image will be saved inside directory:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-215' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-215" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-214' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-214" class="language-markup">/home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -127,8 +93,8 @@ At the end of the build process, the image will be saved inside directory:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-216' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-216" class="language-markup">sudo tar -xzf /home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7/core-image-minimal-dev-zedboard-zynq7.tar.gz -C /home/architech/architech_sdk/architech/zedboard/sysroot/</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-215' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-215" class="language-markup">sudo tar -xzf /home/architech/architech_sdk/architech/zedboard/yocto/build/tmp/deploy/images/zedboard-zynq7/core-image-minimal-dev-zedboard-zynq7.tar.gz -C /home/architech/architech_sdk/architech/zedboard/sysroot/</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -192,8 +158,8 @@ Make sure the board can be seen by your host machine:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-217' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-217" class="language-markup">ping 192.168.0.10</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-216' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-216" class="language-markup">ping 192.168.0.10</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -203,8 +169,8 @@ If the output is similar to this one:
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-218' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-218" class="language-markup">64 bytes from 192.168.0.100: icmp_req=1 ttl=64 time=0.946 ms
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-217' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-217" class="language-markup">64 bytes from 192.168.0.100: icmp_req=1 ttl=64 time=0.946 ms
  64 bytes from 192.168.0.100: icmp_req=2 ttl=64 time=0.763 ms
  64 bytes from 192.168.0.100: icmp_req=3 ttl=64 time=0.671 ms
  64 bytes from 192.168.0.100: icmp_req=4 ttl=64 time=0.793 ms</code></pre>
@@ -268,8 +234,8 @@ On the Host machine, follow these steps to let **Eclipse** deploy and debug your
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-219' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-219" class="language-markup">/home/architech/architech_sdk/architech/zedboard/toolchain/sysroots/i686-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gdb</code></pre>
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-218' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-218" class="language-markup">/home/architech/architech_sdk/architech/zedboard/toolchain/sysroots/i686-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gdb</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
  </div>
@@ -280,8 +246,8 @@ On the Host machine, follow these steps to let **Eclipse** deploy and debug your
 .. raw:: html
 
  <div>
- <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-2110' );">select</a></div>
- <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-2110" class="language-markup">/home/architech/architech_sdk/architech/zedboard/sysroot/lib
+ <div><b class="admonition-host">&nbsp;&nbsp;Host&nbsp;&nbsp;</b>&nbsp;&nbsp;<a style="float: right;" href="javascript:select_text( 'quick_rst-host-219' );">select</a></div>
+ <pre class="line-numbers pre-replacer" data-start="1"><code id="quick_rst-host-219" class="language-markup">/home/architech/architech_sdk/architech/zedboard/sysroot/lib
  /home/architech/architech_sdk/architech/zedboard/sysroot/usr/lib</code></pre>
  <script src="_static/prism.js"></script>
  <script src="_static/select_text.js"></script>
