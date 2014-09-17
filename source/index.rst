@@ -2,9 +2,9 @@
 Architech's ZedBoard documentation
 **********************************
 
-:Version: 1.1.0B
+:Version: 1.1.0C
 :Copyright: Architech
-:Date: 12/09/2014
+:Date: 17/09/2014
 
 .. image:: _static/board.png
     :align: center
